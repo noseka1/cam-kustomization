@@ -1,8 +1,8 @@
 # Kustomization for Deploying Cluster Application Migration on OpenShift 4
 
-This kustomization makes use of [ocs-operator](https://github.com/openshift/ocs-operator) to deploy OpenShift Container Storage.
+This kustomization makes use of the [OpenShift Migration Operator](https://github.com/konveyor/mig-operator) to deploy CAM tool on OpenShift 4.
 
-Red Hat OpenShift Container Storage product documentation can be found [here](https://access.redhat.com/documentation/en-us/red_hat_openshift_container_storage).
+The documentation for the Cluster Application Migration tool can be found [here](https://docs.openshift.com/container-platform/latest/migration/migrating_3_4/about-migration.html).
 
 ## Installing Cluster Application Migration
 
