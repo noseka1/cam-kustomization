@@ -4,6 +4,6 @@ kind: Kustomization
 namespace: openshift-migration
 
 resources:
+- mtc-operator-sub.yaml
 - openshift-migration-ns.yaml
 - openshift-migration-operatorgroup.yaml
-- openshift-migration-subscription.yaml
