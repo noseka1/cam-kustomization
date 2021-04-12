@@ -1,23 +1,25 @@
-# Kustomization for Deploying Cluster Application Migration on OpenShift 4
+# Kustomization for Deploying Migration Toolkit for Containers on OpenShift 4
 
-This kustomization makes use of the [OpenShift Migration Operator](https://github.com/konveyor/mig-operator) to deploy CAM tool on OpenShift 4.
+This kustomization makes use of the [Crane Operator](https://github.com/konveyor/mig-operator) to deploy Migration Toolkit for Containers on OpenShift 4.
 
-The documentation for the Cluster Application Migration tool can be found [here](https://docs.openshift.com/container-platform/latest/migration/migrating_3_4/about-migration.html).
+The documentation for the Migration Toolkit for Containers (MTC) can be found [here](https://docs.openshift.com/container-platform/4.7/migration/migrating_4_1_4/migrating-application-workloads-4-1-4.html).
 
-## Installing Cluster Application Migration
+Migration toolkit leverages [OpenShift Velero Plugin](https://github.com/konveyor/openshift-velero-plugin).
+
+## Installing
 
 The commands in this section must be issued by an OpenShift user with a *cluster-admin* role.
 
-### Installing cam-operator
+### Installing MTC operator
 
 ```
-$ oc apply --kustomize cam-operator/base
+$ oc apply --kustomize mtc-operator/base
 ```
 
-### Creating CAM instance
+### Creating MTC instance
 
-To deploy a CAM instance, issue the command:
+To deploy a MTC instance, issue the command:
 
 ```
-$ oc apply --kustomize cam-instance/base
+$ oc apply --kustomize mtc-instance/base
 ```
