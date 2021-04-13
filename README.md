@@ -10,6 +10,7 @@ Related docs:
 
 * https://github.com/konveyor/mig-operator/tree/master/docs/usage
 * https://github.com/konveyor/mig-controller/tree/master/docs/scenarios
+* https://github.com/konveyor/velero/tree/konveyor-dev/design
 
 ## Installing
 
