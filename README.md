@@ -6,6 +6,11 @@ The documentation for the Migration Toolkit for Containers (MTC) can be found [h
 
 Migration toolkit leverages [OpenShift Velero Plugin](https://github.com/konveyor/openshift-velero-plugin).
 
+Related docs:
+
+* https://github.com/konveyor/mig-operator/tree/master/docs/usage
+* https://github.com/konveyor/mig-controller/tree/master/docs/scenarios
+
 ## Installing
 
 The commands in this section must be issued by an OpenShift user with a *cluster-admin* role.
